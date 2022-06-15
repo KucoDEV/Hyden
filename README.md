@@ -2,7 +2,6 @@
 
 **Hyden Software est un logiciel créer en Python vous permettant de faire de fausse vidéo sur le minage de crypto monnaie sur TikTok**
 
-```python
-print("**Login: Hyden**\n
-**Pass: admin**")
-```
+**Login: Hyden**
+
+**Pass: admin**
