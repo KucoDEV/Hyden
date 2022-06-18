@@ -10,6 +10,7 @@ from rich.console import Console
 import os
 import sys
 import ctypes
+import progressbar
 
 console = Console()
 
@@ -46,6 +47,21 @@ if username == "Hyden":
             proxies = randrange(500)
 
             print(Fore.WHITE + Style.BRIGHT + "\n [" + Fore.RED + "!" + Fore.WHITE + "]" + Fore.RED + " Vous êtes connecter au serveur.")
+            
+            t = 0.0
+
+            print(Style.BRIGHT + Fore.RED)
+            bar = progressbar.ProgressBar(maxval=10, widgets=[
+	            ' Lancement... ',
+	            progressbar.Bar(left='| ', marker='█', right=' | '),
+	            progressbar.SimpleProgress(),
+            ]).start()
+            
+            while t <= 10.0:
+                bar.update(t)
+                time.sleep(0.1)
+                t += 0.1
+            bar.finish()
             time.sleep(2)
             System.Clear()
             print('\n'*2)
