@@ -1,3 +1,4 @@
 colorama
 rich
 pystyle
+progressbar
