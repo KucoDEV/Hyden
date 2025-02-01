@@ -1,65 +1,38 @@
-<div align="center">
+# 🎬 Hyden Software
 
-<a href="https://gowebly.org" target="_blank" title="Go to the Gowebly CLI website"><img width="196px" alt="gowebly logo" src="https://raw.githubusercontent.com/gowebly/.github/main/images/gowebly-logo.svg"></a>
+## 📜 Description
 
-<a name="readme-top"></a>
+**Hyden Software** est un programme écrit en Python conçu pour la création de vidéos. Bien qu'il affiche plusieurs fonctionnalités avancées comme le minage de cryptomonnaies ou la génération de clés, il s'agit avant tout d'un outil de simulation destiné à produire du contenu vidéo.
 
-# The Hyden Software
+## ⚡ Fonctionnalités
 
-A next-generation fake crypto-mining script
+- Interface stylisée en ligne de commande.
+- Simulation de minage de cryptomonnaies (BTC, ETH).
+- Génération factice de codes Nitro Discord.
+- Effets visuels adaptés à la réalisation de vidéos.
+- Authentification simulée avec un pseudo et un mot de passe.
 
-**&searr;&nbsp;&nbsp;The official documentation&nbsp;&nbsp;&swarr;**
+## 🛠️ Prérequis
 
-[English](https://github.com/KucoDEV/Hyden/blob/main/README.md)
+Assurez-vous d'avoir Python installé sur votre machine ainsi que les modules suivants :
 
-**&searr;&nbsp;&nbsp;Share the project's link to your friends&nbsp;&nbsp;&swarr;**
+```
+pip install requests colorama pystyle rich progressbar2
+```
 
-[![Share on X][x_share_img]][x_share_url]
-[![Share on Telegram][telegram_share_img]][telegram_share_url]
-[![Share on Reddit][reddit_share_img]][reddit_share_url]
+## 🚀 Installation et exécution
 
-</div>
+1. Clonez ce repository ou téléchargez le fichier `Hyden.py`.
+2. Exécutez le script avec la commande :
+   ```
+   python Hyden.py
+   ```
+3. Utilisez les options affichées pour générer des effets visuels pour vos vidéos.
 
-## ✨ Features
+## ⚠️ Remarque
 
-- 100% **free** and **open source**!
-- For **any** developer's level of knowledge and technical expertise, as the intelligent tool does most of the routine project setup for you, creates an understandable structure, and prepares code for use and deployment in production.
-- Enables you to **start a new python project faster**.
-- Ready-to-use auth system that can run in **any environment**.
+Ce programme est conçu uniquement pour la création de contenu vidéo et ne réalise pas réellement les actions qu'il affiche. Il s'agit d'une simulation.
 
-## ⚡️ Quick start
+## 📜 Licence
 
-First, [download](https://www.python.org/downloads/) and install **Python**. Version `3.10` (or higher) is required for the code generated.
-
-Now, you can use the **Hyden** without installation. Just run the python file!
-
-That's it! 🔥 A wonderful web application to help you create TKinter window.
-
-<div align="right">
-
-[&nwarr; Back to top](#readme-top)
-
-</div>
-
-## 🌟 Stars
-
-<picture>
-  <source srcset="https://api.star-history.com/svg?repos=KucoDEV/Hyden&type=Date&theme=dark"/>
-  <img width="100%" alt="The Gowebly CLI star history chart" src="https://api.star-history.com/svg?repos=KucoDEV/Hyden&type=Date"/>
-</picture>
-
-## ⚠ License
-
-[`The Hyden`][repo_url] is free and open-source software licensed under the [Apache 2.0 License].
-
-<!-- Repository links -->
-[repo_url]: https://github.com/KucoDEV/Hyden
-
-<!-- Social links -->
-[x_share_url]: https://x.com
-[telegram_share_url]: https://t.me
-[reddit_share_url]: https://www.reddit.com
-[x_share_img]: https://img.shields.io/badge/x_(twitter)-black?style=for-the-badge&logo=x
-[telegram_share_img]: https://img.shields.io/badge/telegram-black?style=for-the-badge&logo=telegram
-[whatsapp_share_img]: https://img.shields.io/badge/whatsapp-black?style=for-the-badge&logo=whatsapp
-[reddit_share_img]: https://img.shields.io/badge/reddit-black?style=for-the-badge&logo=reddit
+Ce projet est sous licence MIT. Vous êtes libre de le modifier et de le redistribuer.
