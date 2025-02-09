@@ -2,37 +2,37 @@
 
 ## 📜 Description
 
-**Hyden Software** est un programme écrit en Python conçu pour la création de vidéos. Bien qu'il affiche plusieurs fonctionnalités avancées comme le minage de cryptomonnaies ou la génération de clés, il s'agit avant tout d'un outil de simulation destiné à produire du contenu vidéo.
+**Hyden Software** is a Python program designed for video creation. While it displays several advanced features such as cryptocurrency mining or key generation, it is primarily a simulation tool intended for producing video content.
 
-## ⚡ Fonctionnalités
+## ⚡ Features
 
-- Interface stylisée en ligne de commande.
-- Simulation de minage de cryptomonnaies (BTC, ETH).
-- Génération factice de codes Nitro Discord.
-- Effets visuels adaptés à la réalisation de vidéos.
-- Authentification simulée avec un pseudo et un mot de passe.
+- Stylized command-line interface.
+- Simulated cryptocurrency mining (BTC, ETH).
+- Fake generation of Discord Nitro codes.
+- Visual effects suitable for video production.
+- Simulated authentication with a username and password.
 
-## 🛠️ Prérequis
+## 🛠️ Prerequisites
 
-Assurez-vous d'avoir Python installé sur votre machine ainsi que les modules suivants :
+Make sure you have Python installed on your machine as well as the following modules:
 
 ```
 pip install requests colorama pystyle rich progressbar2
 ```
 
-## 🚀 Installation et exécution
+## 🚀 Installation and Execution
 
-1. Clonez ce repository ou téléchargez le fichier `Hyden.py`.
-2. Exécutez le script avec la commande :
+1. Clone this repository or download the `Hyden.py` file.
+2. Run the script with the command:
    ```
    python Hyden.py
    ```
-3. Utilisez les options affichées pour générer des effets visuels pour vos vidéos.
+3. Use the displayed options to generate visual effects for your videos.
 
-## ⚠️ Remarque
+## ⚠️ Note
 
-Ce programme est conçu uniquement pour la création de contenu vidéo et ne réalise pas réellement les actions qu'il affiche. Il s'agit d'une simulation.
+This program is designed solely for video content creation and does not actually perform the actions it displays. It is a simulation.
 
-## 📜 Licence
+## 📜 License
 
-Ce projet est sous licence MIT. Vous êtes libre de le modifier et de le redistribuer.
+This project is licensed under the MIT license. You are free to modify and redistribute it.
